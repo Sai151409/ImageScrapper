@@ -83,7 +83,7 @@ def search_and_download(search_term : str, driver_path = str, target_path = "./i
         counter += 1
 
 
-term = 'Jr NTR'
+term = 'Adul Kalam'
 path = r'C:\Users\Asus\PycharmProjects\ImageScrapper1\chromedriver.exe'
 number = 1
 

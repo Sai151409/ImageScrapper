@@ -9,7 +9,7 @@ def fetch_img_links(search_string : str, max_fetch_links : int, wd : webdriver, 
         wd.execute_script('window.scrollTo(0, document.body.scrollHeight);')
         time.sleep(sleep_between_interactions)
 
-    search_url = search_url = "https://www.google.com/search?safe=off&site=&tbm=isch&source=hp&q={q}&oq={q}&gs_l=img"
+    search_url = "https://www.google.com/search?safe=off&site=&tbm=isch&source=hp&q={q}&oq={q}&gs_l=img"
 
     wd.get(search_url.format(q=search_string))
 

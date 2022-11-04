@@ -83,9 +83,9 @@ def search_and_download(search_term : str, driver_path = str, target_path = "./i
         counter += 1
 
 
-term = 'Adul Kalam'
+term = 'Narendra Modi'
 path = r'C:\Users\Asus\PycharmProjects\ImageScrapper1\chromedriver.exe'
-number = 1
+number = 10
 
 
 search_and_download(search_term=term, driver_path=path, number_images=number)
